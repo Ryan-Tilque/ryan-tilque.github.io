@@ -1,0 +1,32 @@
+/* Typography */
+
+/* Bio & Resume */
+.container {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.bio h1, h2, h3{
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	text-transform: bold;
+}
+
+p, li{
+	font-family: 'Raleway', sans-serif;
+}
+
+.dropcap {
+	font-size: 4em;
+	background: blue;
+	color: #fff;
+	padding: 5px;
+	margin: 8px;
+	float: left;
+	margin-bottom: 0;
+}
+
+
+
+
+/* Portfolio */

@@ -1,3 +1,9 @@
+body{
+	background-image: url("../img/snowboard.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
 /* Typography */
 
 /* Bio & Resume */

@@ -1,12 +1,15 @@
+
+/*universal*/
 body{
 	background-image: url("../img/triangular.png");
 }
 
-/* Typography */
+header{
 
-/* Bio & Resume */
+}
+
 .container {
-	width: 50%;
+	width: 60%;
 	margin: 0 auto;
 }
 
@@ -21,16 +24,46 @@ p, li{
 }
 
 .dropcap {
-	font-size: 4em;
-	background: blue;
-	color: #fff;
-	padding: 5px;
-	margin: 8px;
-	float: left;
-	margin-bottom: 0;
+	font-size: 3.5em;
+	color: #666C91;
+	padding-top: 5px ;
+	margin: -10px 3px -5px;
+	float: left; 
+	text-transform: bold;
+}
+
+/*nav bar*/
+
+header nav{
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+
+header nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding-top: 5px;
+	text-align: center;
+
+	background: red;
+
+}
+
+header nav ul li:hover{
+	transform: scale(1.11);
+
 }
 
 
+header nav ul li a{
+	text-decoration: none;
+}
 
+header nav{
+	background: blue;
+	/*background: rgb(179, 179, 186);*/
+	height: 60px;
+	margin-bottom: 60px;
+}
 
-/* Portfolio */

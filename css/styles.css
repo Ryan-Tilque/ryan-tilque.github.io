@@ -2,6 +2,8 @@
 /*universal*/
 body{
 	background-image: url("../img/triangular.png");
+	width: 98%;
+	padding-left: 2%;
 }
 
 h1{
@@ -62,5 +64,20 @@ header nav ul li:hover{
 
 header nav ul li a{
 	text-decoration: none;
+}
+
+header nav ul li a:link{
+	color: #fff;
+}
+
+header nav ul li a:visited{
+	color: #ddd;
+}
+
+.created{
+	font-size: .125em;
+	margin-top: 5%;
+	width: 98%;
+	text-align: center;
 }
 

@@ -155,7 +155,7 @@ section ul li img{
 
 .paragraph{
 	width: 100%;
-	margin: 5% 0 0 0;
+	margin: 8% 0 0 0;
 	padding: 2% 0 0 0;
 	border-top: 2px dashed #818181; 
 }
@@ -192,6 +192,17 @@ section ul li img{
 .skills div{
 	display: inline;
 	border: 2px solid red;
+}
+
+/*******Contact*******/
+
+form{
+	margin-top: 80px;
+}
+
+input{
+	display: block;
+	margin: .5% 0;
 }
 
 /*Media Querries*/

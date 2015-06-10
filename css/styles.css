@@ -290,7 +290,9 @@ h3 a:hover{
 		margin: 0 2%;
 	}
 
-
+	section{
+		margin: 0 10%;
+	}
 
 /*******Home*******/
 
@@ -383,6 +385,10 @@ h3 a:hover{
 		width: 70%;
 		overflow: visible;
 		margin-left: 5%;
+	}
+
+	section{
+		margin: 0 5%;
 	}
 
 }

@@ -197,19 +197,12 @@ section ul li img{
 /*******Contact*******/
 
 form{
-	margin: 80px auto;
-	width: 200px;
-	padding-bottom: 2%;
-
+	margin-top: 80px;
 }
 
 input{
 	display: block;
-	margin: 3% 0;
-}
-
-input[name="message"]{
-	height: 100px;
+	margin: .5% 0;
 }
 
 /*Media Querries*/

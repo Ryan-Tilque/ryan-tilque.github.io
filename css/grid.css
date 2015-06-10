@@ -56,6 +56,11 @@ img {
 	.grid-1 {
 		width: 6.5%;
 	}
+
+	.grid-1.5{
+		width: 10%;
+	}
+
 	.grid-2 {
 		width: 15%;
 	}
@@ -77,6 +82,11 @@ img {
 	.grid-8 {
 		width: 66%;
 	}
+
+	.grid-8.5{
+		width: 70%;
+	}
+
 	.grid-9 {
 		width: 74.5%;
 	}

@@ -255,6 +255,7 @@ h3 a:hover{
 }
 
 .portfolio img{
+	width: 100px;
 	width: 100%;
 	margin: auto 0;
 }
@@ -265,13 +266,6 @@ h3 a:hover{
 	font-size: .75em;
 }
 
-.pic img{
-	margin: 0 5% 5%;
-}
-
-.pic{
-	margin: 0;
-}
 
 /*******Media Querries*******/
 

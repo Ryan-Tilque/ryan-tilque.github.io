@@ -53,7 +53,7 @@ header{
 
 header ul{
 	float: right;
-	width: 400px;
+	width: 45%;
 }
 
 header ul li{
@@ -84,8 +84,8 @@ header ul li a:visited{
 .nav-item{
 	float: left;
 	display: inline;
-	width: 65px;
-	margin: 0 5%;
+	width: 70px;
+	margin: 0 2%;
 
 }
 
@@ -160,6 +160,8 @@ section ul li img{
 	border-top: 2px dashed #818181; 
 }
 
+/*******Bio*******/
+
 .bio p{
 	line-height: .5em;
 	padding: 0 0 0 8%;
@@ -186,7 +188,10 @@ section ul li img{
 	line-height: 2.4em;
 	padding-bottom: 2%;
 	list-style: disc;
-	margin: -2% 0 0 2%;
+	margin: 0 0 0 2%;
+
+	overflow: auto;
+	width: 100%;
 }
 
 .skills div{
@@ -194,26 +199,91 @@ section ul li img{
 	border: 2px solid red;
 }
 
+aside{
+	float: left;
+	width: 40%;
+	overflow: auto;
+
+	/*border: 2px solid red;*/
+}
+
+.skills aside:first-child{
+	margin-left: 5%;
+}
+
+
 /*******Contact*******/
 
 form{
-	margin-top: 80px;
+	margin: 3% auto;
+	width: 300px;
+	padding-bottom: 5%;
 }
 
 input{
 	display: block;
-	margin: .5% 0;
+	margin: 3% 0;
 }
 
-/*Media Querries*/
+input[name="message"]{
+	height: 50px;
+}
+
+input[type="text"],
+input[type="email"]{
+	width: 100%;
+}
+
+h3 a{
+	text-decoration: none;
+	color: #aaa;
+	text-transform: lowercase;;
+}
+
+h3 a:hover{
+	color: #818181;
+}
+
+.contact{
+	margin-top: 80px
+}
+
+/*******portfolio*******/
+
+.portfolio{
+	margin-top: 80px;
+}
+
+.portfolio img{
+	width: 100%;
+	margin: auto 0;
+}
+
+.portfolio p{
+	text-align: center;
+	color: #818181;
+	font-size: .75em;
+}
+
+.pic img{
+	margin: 0 5% 5%;
+}
+
+.pic{
+	margin: 0;
+}
+
+/*******Media Querries*******/
 
 @media screen and (max-width: 900px){
 
+	/*******Nav*******/
+
 	header ul{
 		float: none;
-		margin: 2% auto 0;
+		margin: 2% 28.5% 0 28.5%;
 		padding: 0;
-		width: 61%;
+		width: 45%;
 	}
 
 	header ul div{
@@ -225,6 +295,10 @@ input{
 		float: none;
 		margin: 0 2%;
 	}
+
+
+
+/*******Home*******/
 
 	.profile{
 		float: none;
@@ -240,6 +314,13 @@ input{
 		margin: 0 5%;
 	}
 
+	aside{
+		float: none;
+		width: 70%;
+		overflow: visible;
+		margin-left: 5%;
+	}
+
 /*******bio*********/
 	
 	.bio li,
@@ -253,3 +334,61 @@ input{
 	}
 }
 
+@media screen and (max-width: 700px){
+
+	section{
+		margin-top: 20px;
+	}
+
+	header{
+		height: 150px;
+		position: static;
+		padding-top: 1px;
+	}
+
+	header ul{
+		float: none;
+		margin: 2% 28.5% 0 28.5%;
+		padding: 0;
+		width: 45%;
+		display: block;
+	}
+
+	header ul div{
+		margin: 0 auto;
+		display: block;
+	}
+
+	.nav-item{
+		display: block;
+		float: none;
+		margin: 2% auto;
+		border: 2px solid #818181;
+		background: #eee;
+		width: 100%;
+	}
+
+	header ul li a:link{
+		color: #b3b3b3;
+	}
+
+	header ul li a:visited{
+		color: #676767;
+	}
+
+	section h1:first-child{
+		margin-top: 0;
+	}
+
+	.contact{
+		margin-top: 20px;
+	}
+
+	aside{
+		float: none;
+		width: 70%;
+		overflow: visible;
+		margin-left: 5%;
+	}
+
+}

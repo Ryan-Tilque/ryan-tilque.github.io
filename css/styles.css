@@ -3,13 +3,7 @@
 body{
 	background-image: url("../img/triangular.png");
 	width: 98%;
-	padding-left: 2%;
 }
-
-h1{
-	margin-top: 60px;
-}
-
 
 .container {
 	width: 60%;
@@ -17,67 +11,234 @@ h1{
 }
 
 .bio h1, h2, h3{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lora', sans-serif;
 	text-transform: uppercase;
 	text-transform: bold;
 }
 
 p, li{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lora', sans-serif;
 }
 
 .dropcap {
 	font-size: 3.5em;
-	color: #666C91;
+	color: rgb(123, 123, 123);
 	padding-top: 5px ;
-	margin: -10px 3px -5px;
+	margin: 5px 3px 5px;
 	float: left; 
 	text-transform: bold;
 }
 
-/*nav bar*/
-
-header nav{
-	height: 60px;
-
-	position: fixed;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-
+.created{
+	font-size: .7em;
+	margin-top: 3%;
+	width: 98%;
+	text-align: center;
 }
 
-header nav ul li{
+/*******nav bar*******/
+
+header{
+	height: 60px;
+	background: rgb(124, 124, 124);
+	width: 100%;
+	margin: auto;
+
+
+	position: fixed;
+	z-index: 2;
+	top: 0;
+}
+
+
+header ul{
+	float: right;
+	width: 400px;
+}
+
+header ul li{
 	list-style: none;
 	display: inline-block;
 	padding-top: 5px;
 	text-align: center;
+	position: relative;
 
 }
 
-header nav ul li:hover{
+header ul li:hover{
 	transform: scale(1.11);
-
 }
 
-
-header nav ul li a{
+header ul li a{
 	text-decoration: none;
 }
 
-header nav ul li a:link{
+header ul li a:link{
 	color: #fff;
 }
 
-header nav ul li a:visited{
+header ul li a:visited{
 	color: #ddd;
 }
 
-.created{
-	font-size: .125em;
-	margin-top: 5%;
-	width: 98%;
-	text-align: center;
+.nav-item{
+	float: left;
+	display: inline;
+	width: 65px;
+	margin: 0 5%;
+
+}
+
+ul:last-child{
+	margin-right: 3%;
+}
+
+
+/*******Home*******/
+
+.title{
+	height: 500px;
+	width: 100%;
+}
+
+section{
+	background: #fafafa;
+	margin: 0 20%;
+	border-radius: 2%
+}
+
+section p{
+	margin-top: 0;
+	padding: 2%;
+	line-height: 1.6em;
+}
+
+section h1{
+	margin: 90px 0 0 0;
+	color: rgb(123, 123, 123);
+	padding: 5% 2% 2%;
+}
+
+section h3,
+section h2{
+	font-size: 1em;
+	padding: 0 5%;
+	text-transform: capitalize;
+	color: rgb(123, 123, 123);
+}
+
+section ul,
+section ul a{
+	list-style: none;
+	text-decoration: none;
+	line-height: 1.6em;
+	color: #818181;
+	padding-left: 2.5%;
+	margin-bottom: 0;
+}
+
+section ul li a:hover{
+	color: black;
+}
+
+section ul li img{
+	width: 35px;
+	margin-left: 3%;
+}
+
+.profile{
+	width: 14em;
+	border-radius: 100%;
+	margin: -8% 5% 0 0;
+	float: right;
+}
+
+.paragraph{
+	width: 100%;
+	margin: 5% 0 0 0;
+	padding: 2% 0 0 0;
+	border-top: 2px dashed #818181; 
+}
+
+.bio p{
+	line-height: .5em;
+	padding: 0 0 0 8%;
+}
+
+.bio li{
+	margin-left: 8%;
+	line-height: 1.5em;
+}
+
+.experience li{
+	margin: 1% 0 0 10%;
+	color: black;
+	list-style: disc;
+}
+
+.experience li:nth-child(even){
+	margin-left: 18%;
+	font-size: .85em;
+}
+
+.skills{
+	color: black;
+	line-height: 2.4em;
+	padding-bottom: 2%;
+	list-style: disc;
+	margin: -2% 0 0 2%;
+}
+
+.skills div{
+	display: inline;
+	border: 2px solid red;
+}
+
+/*Media Querries*/
+
+@media screen and (max-width: 900px){
+
+	header ul{
+		float: none;
+		margin: 2% auto 0;
+		padding: 0;
+		width: 61%;
+	}
+
+	header ul div{
+		margin: 0 auto;
+		display: inline;
+	}
+
+	.nav-item{
+		float: none;
+		margin: 0 2%;
+	}
+
+	.profile{
+		float: none;
+		margin: 0 25%;
+		width: 50%;
+	}
+
+	section p{
+		padding: 0 5% 2%;
+	}
+
+	section ul li img{
+		margin: 0 5%;
+	}
+
+/*******bio*********/
+	
+	.bio li,
+	.bio p{
+		font-size: .9em;
+		padding-right: 2%;
+	}
+	
+	.bio p{
+		text-align: center;
+	}
 }
 

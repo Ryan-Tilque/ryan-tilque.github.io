@@ -330,7 +330,7 @@ h3 a:hover{
 	}
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 
 	section{
 		margin-top: 20px;

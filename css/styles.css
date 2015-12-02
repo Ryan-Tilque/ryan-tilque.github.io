@@ -50,7 +50,6 @@ header{
 	top: 0;
 }
 
-
 header ul{
 	float: right;
 	width: 45%;
@@ -96,6 +95,11 @@ ul:last-child{
 
 /*******Home*******/
 
+.standOut{
+    color: rgb(0, 182, 255);
+    margin-left: 1.5%;
+}
+
 .title{
 	height: 500px;
 	width: 100%;
@@ -104,7 +108,7 @@ ul:last-child{
 section{
 	background: #fafafa;
 	margin: 0 20%;
-	border-radius: 2%
+	border-radius: 2em;
 }
 
 section p{
@@ -123,44 +127,23 @@ section h3,
 section h2{
 	font-size: 1em;
 	padding: 0 5%;
+    margin: 2px 0 2px;
 	text-transform: capitalize;
 	color: rgb(123, 123, 123);
 }
 
-section ul,
-section ul a{
-	list-style: none;
-	text-decoration: none;
-	line-height: 1.6em;
-	color: #818181;
-	padding-left: 2.5%;
-	margin-bottom: 0;
-}
-
-section ul li a:hover{
-	color: black;
-}
-
-section ul li img{
-	width: 35px;
-	margin-left: 3%;
-}
-
 .profile{
 	width: 14em;
-	border-radius: 100%;
-	margin: -8% 5% 0 0;
+	border-radius: 2em;
+	margin: -8% 5% 5px 18px;
 	float: right;
 }
 
-.paragraph{
-	width: 100%;
-	margin: 8% 0 0 0;
-	padding: 2% 0 0 0;
-	border-top: 2px dashed #818181; 
+.p{
+    letter-spacing: .01em
 }
 
-/*******Bio*******/
+/*******Resume*******/
 
 .bio p{
 	line-height: .5em;
@@ -168,7 +151,7 @@ section ul li img{
 }
 
 .bio li{
-	margin-left: 8%;
+	padding: 0 5%;
 	line-height: 1.5em;
 }
 
@@ -181,6 +164,11 @@ section ul li img{
 .experience li:nth-child(even){
 	margin-left: 18%;
 	font-size: .85em;
+}
+
+.experience li:last-child{
+    margin-left: 18%;
+    font-size: .85em;
 }
 
 .skills{
@@ -211,6 +199,14 @@ aside{
 	margin-left: 5%;
 }
 
+.h3{
+    margin: 2% 0;
+}
+
+.resumeCenter{
+    text-align: none;
+    list-style: none;
+}
 
 /*******Contact*******/
 

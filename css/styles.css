@@ -165,11 +165,11 @@ section h2,
 	list-style: disc;
 }
 
-.experience li:nth-child(even){
-	margin-left: 9%;
-	font-size: .85em;
+.experience li:nth-child(odd){
+	margin-left: 0%;
 }
 
+.experience li:nth-child(even),
 .experience li:last-child{
     margin-left: 9%;
     font-size: .85em;
@@ -234,7 +234,10 @@ aside{
     list-style: none;
 }
 
-
+.skyhigh{
+    margin-left: 2em;
+    
+}
 
 /*******Contact*******/
 

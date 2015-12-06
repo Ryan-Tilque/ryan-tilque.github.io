@@ -1,7 +1,4 @@
 //tabs
-$(document).ready(function() {
+$(document).ready(function () {
     $('.tabs').tabslet();
 });
-
-// readmore
-$('article').readmore();

@@ -41,46 +41,70 @@
 sample@mail.com</p>
 -->
 
-<h2 class="resumeCenter">Education</h2>
-
-<ul class="resumeCenter experience">
-<li><b>Bothell High School</b></li>
-<li>Graduated in 2012</li>
-<li><b>Spokane Falls Community College</b></li>
-<li>Graduated with an Associate's of Business in 2014</li>
-<li><b>Eastern Washington University</b></li>
-<li>Will graduate with a Major in Marketing and</li>
-<li>A Minor in Visual Communication Design in 2016</li>
-</ul>
-
-<h2>Experience</h2>
-
-<ul class="experience">
-<li>Maintenance and Court Monitor at Sky High Sports</li>
-<li>October 2012-Present</li>
-<li>Worker at Snoqualmie Gourmet Ice Cream</li>
-<li>May 2012-September 2012</li>
-<li>Bothell High School Retail Operations</li>
-<li>September 2011-June 2012</li>
-</ul>
-
-<h2>Skill set</h2>
-
-<ul class="skills">
-    <aside>
-    <li>Marketing</li>
-    <li>Operations</li>
-    <li>Program Management</li>
-    </aside>
-    <aside>
-    <li>Microsoft Excel<br></li>
-    <li>HTML</li> 
-    <li>CSS<br></li>
-    </aside>
-</ul>
+<div class='tabs'>
+    <ul class="tabsHeading">
+        <li><a href="#tab-1">Education</a></li>
+        <li><a href="#tab-2">Work Experience</a></li>
+        <li><a href="#tab-3">Skills</a></li>
+    </ul>
+    
+    <div id='tab-1' class="information">
+        <ul class="resumeCenter experience">
+            <li><b>Bothell High School</b></li>
+                <li>Graduated in 2012</li>
+            <li><b>Spokane Falls Community College</b></li>
+                <li>Graduated with an Associate's of Business in 2014</li>
+            <li><b>Eastern Washington University</b></li>
+                <li>Will graduate with a Major in Marketing and</li>
+            <li>A Minor in Visual Communication Design in 2016</li>
+        </ul>
+    </div>
+    
+    <div id='tab-2' class="information">
+        <ul class="resumeCenter experience">
+           <li class="companyH">Sky High Sports</li>
+            <li><b>Court Monitor at Sky High Sports</b></li>
+                <li>October 2012-November 2015</li>
+            <li><b> Maintenance at Sky High Sports</b></li>
+                <li>January 2015-Present</li>
+            <li><b> Manager at Sky High Sports</b></li>
+                <li>November 2015-Present</li>
+        </ul>
+        <ul class="resumeCenter experience">
+            <li class="companyH"><b>Worker at Snoqualmie Gourmet Ice Cream</b></li>
+                <li>May 2012-September 2012</li>
+        </ul>
+        <ul class="resumeCenter experience">
+            <li class="companyH"><b>Bothell High School Retail Operations</b></li>
+                <li>September 2011-June 2012</li>
+        </ul>
+    </div>
+    
+    <div id='tab-3' class="information">
+        <ul class="skills">
+            <aside>
+                <li>Marketing</li>
+                <li>Operations</li>
+                <li>Program Management</li>
+            </aside>
+            <aside>
+                <li>Microsoft Excel<br></li>
+                <li>HTML Basics</li> 
+                <li>CSS Basics<br></li>
+            </aside>
+        </ul>  
+    </div>
+</div>
 
 </section>
 
+
+<!--scripts-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tabslet.min.js"></script>
+<script type="text/javascript" src="/node_modules/readmore-js/readmore.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+    
 </body>
 
 <footer>

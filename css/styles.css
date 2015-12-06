@@ -124,12 +124,16 @@ section h1{
 }
 
 section h3,
-section h2{
+section h2,
+.tabs a
+{
 	font-size: 1em;
 	padding: 0 5%;
     margin: 2px 0 2px;
 	text-transform: capitalize;
 	color: rgb(123, 123, 123);
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .profile{
@@ -156,18 +160,18 @@ section h2{
 }
 
 .experience li{
-	margin: 1% 0 0 10%;
+	margin: 1% 0 0 0%;
 	color: black;
 	list-style: disc;
 }
 
 .experience li:nth-child(even){
-	margin-left: 18%;
+	margin-left: 9%;
 	font-size: .85em;
 }
 
 .experience li:last-child{
-    margin-left: 18%;
+    margin-left: 9%;
     font-size: .85em;
 }
 
@@ -207,6 +211,30 @@ aside{
     text-align: none;
     list-style: none;
 }
+
+.tabs ul{
+    list-style-type: none;
+}
+
+.tabsHeading li{
+    display:inline;
+    margin: 0;
+    padding: 0;
+}
+
+.tabsHeading{
+    padding: 0;
+}
+
+.information{
+    padding-bottom: 1em;
+}
+
+.information li{
+    list-style: none;
+}
+
+
 
 /*******Contact*******/
 

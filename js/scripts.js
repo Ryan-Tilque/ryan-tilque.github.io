@@ -4,5 +4,4 @@ $(document).ready(function () {
 });
 
 // lightbox
-$('#gallery').rebox({ selector: 'section' });
-
+$("#gallery").lightGallery(); 

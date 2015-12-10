@@ -9,7 +9,8 @@
 
  	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
  	<link rel="stylesheet" href="css/grid.css">
- 	<link rel="stylesheet" href="css/styles.css">	
+ 	<link rel="stylesheet" href="css/styles.css">
+ 	<link rel="stylesheet" href="css/jquery-rebox.css">
 </head>
 
 <header>
@@ -24,29 +25,45 @@
 </header>
 <body>
 
-  <section class="portfolio">
+  <section id="gallery" class="portfolio">
 
     <h1>My Work</h1>
 
     <section class="grid-container">
-    <div class="grid-4">
-      <a href="spaceneedle.html"><img src="img/spaceneedle.jpg"></a>
-      <p>Underwater</p>
-    </div>    
+       
+        <div class="grid-6">
+          <a href="img/Whisky.jpg">
+          <img src="img/Whisky.jpg"></a>
+          <p>Tilque Whisky</p>
+        </div> 
+         
+        <div class="grid-6">
+          <a href="spaceneedle.html"><img src="img/spaceneedle.jpg"></a>
+          <p>Underwater</p>
+        </div>    
 
-    <div class="grid-4">
-      <a href="starwars.html"><img src="img/starwars.jpg"></a>
-      <p>Star Wars</p>
-    </div>    
+    </section>
+    <section class="grid-container">
 
-    <div class="grid-4">
-      <a href="nick.html"><img src="img/nickofferman.png"></a>
-      <p>Nick Offerman</p>
-    </div>    
+        <div class="grid-6">
+          <a href="starwars.html"><img src="img/starwars.jpg"></a>
+          <p>Star Wars</p>
+        </div>    
 
-</section>
+        <div class="grid-6">
+          <a href="nick.html"><img src="img/nickofferman.png"></a>
+          <p>Nick Offerman</p>
+        </div>  
+          
+    </section>
 
   </section>
+
+<!--Java-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/jquery-rebox.js"></script>
+
+
 
 </body>
 

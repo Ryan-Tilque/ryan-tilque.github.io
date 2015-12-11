@@ -420,3 +420,14 @@ h3 a:hover{
 	}
 
 }
+
+
+figure {
+  background: yellow;
+  float: left;
+  padding: 2%;
+  width: 200px;
+}
+figure:hover {
+  background: green;
+}

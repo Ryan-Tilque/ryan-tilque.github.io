@@ -4,4 +4,6 @@ $(document).ready(function () {
 });
 
 // lightbox
-$("#gallery").lightGallery(); 
+$('.gallery').lightGallery({
+    selector: 'a'
+}); 

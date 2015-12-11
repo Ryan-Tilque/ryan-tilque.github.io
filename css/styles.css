@@ -242,7 +242,7 @@ aside{
 
 form{
 	margin: 3% auto;
-	width: 300px;
+	width: 60%;
 	padding-bottom: 5%;
 }
 
@@ -271,51 +271,34 @@ h3 a:hover{
 }
 
 .contact{
-	margin-top: 80px
+	margin-top: 80px;
+    padding-bottom: 2%;
 }
 
-/*
 .randombg{
-    background-image: url(../img/hawaii.jpg);
-
-    width: 40%;
-    margin: auto;
-    padding: 10px 0;
+    margin: 3% 5% 0 ;
+    padding-top: 1%;
+    border-radius: 1em;
 }
-*/
 
-.randombg p{
-    margin: 0;
-}
+
 
 .bg0{
     background-image: url(../img/hawaii.jpg); 
     background-repeat: no-repeat;
     background-size: 100%;
-    
-        width: 40%;
-    margin: auto;
-    padding: 10px 0;
 }
 
 .bg1{
     background-image: url(../img/snowboard.jpg); 
     background-repeat: no-repeat;
     background-size: 100%;
-    
-        width: 40%;
-    margin: auto;
-    padding: 10px 0;
 }
 
 .bg2{
     background-image: url(../img/americanflag.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    
-        width: 40%;
-    margin: auto;
-    padding: 10px 0;
 }
 
 /*******portfolio*******/

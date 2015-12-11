@@ -7,11 +7,11 @@ var numRand = Math.floor(Math.random() * 3);
 console.log(numRand);
 
 //concatenate 'bg' + 'numRand'
-var randColor = 'bg' + numRand;
+var randPic = 'bg' + numRand;
 console.log(randPic);
 
 //change bg color
-$('footer div').addClass(randPic);
+$('.randombg').addClass(randPic);
 
 
 

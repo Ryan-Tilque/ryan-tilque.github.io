@@ -97,6 +97,7 @@ ul:last-child{
 .standOut{
     color: rgb(0, 182, 255);
     margin-left: 1.5%;
+    margin-bottom: 2em;
 }
 
 .title{
@@ -127,7 +128,7 @@ section h2,
 .tabs a
 {
 	font-size: 1em;
-	padding: 0 5%;
+	padding: 0 2%;
     margin: 2px 0 2px;
 	text-transform: capitalize;
 	color: rgb(123, 123, 123);
@@ -138,7 +139,7 @@ section h2,
 .profile{
 	width: 14em;
 	border-radius: 2em;
-	margin: -8% 5% 5px 18px;
+	margin: -7em 5% 1em 18px;
 	float: right;
 }
 
@@ -194,8 +195,6 @@ aside{
 	float: left;
 	width: 40%;
 	overflow: auto;
-
-	/*border: 2px solid red;*/
 }
 
 .skills aside:first-child{
@@ -235,7 +234,11 @@ aside{
 
 .skyhigh{
     margin-left: 2em;
-    
+}
+
+.active a{
+    color: black;
+    font-weight: bold;
 }
 
 /*******Contact*******/
@@ -320,6 +323,20 @@ h3 a:hover{
 	font-size: .75em;
 }
 
+.lg-img-wrap{
+    background: rgba(124, 124, 124, 0.59);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*******Media Querries*******/
 
@@ -352,7 +369,7 @@ h3 a:hover{
 
 	.profile{
 		float: none;
-		margin: 0 25%;
+		margin: 0 25% 1em;
 		width: 50%;
 	}
 

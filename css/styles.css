@@ -175,6 +175,11 @@ section h2,
     font-size: .85em;
 }
 
+
+.experience ul{
+	margin-bottom: .5em; 
+}
+
 .skills{
 	color: black;
 	line-height: 2.4em;
@@ -240,6 +245,16 @@ aside{
     color: black;
     font-weight: bold;
 }
+
+.work ul,
+.work li{
+	margin-top: 0px;
+}
+
+.work ul{
+	margin-bottom: 1%; 
+}
+
 
 /*******Contact*******/
 

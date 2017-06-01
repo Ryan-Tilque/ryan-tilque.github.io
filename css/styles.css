@@ -241,6 +241,10 @@ aside{
     font-weight: bold;
 }
 
+#p{
+	padding: 0;
+}
+
 /*******Contact*******/
 
 form{
